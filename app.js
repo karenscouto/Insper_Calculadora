@@ -6,17 +6,17 @@ let salarios = [
   {
     "de": 0,
     "ate": 1212,
-    "mensagem": "Cerca de 55% dos jogadores profissionais ganham 1 salário mínimo. Calçar as chuteiras pode ser um bom negócio!"
+    "mensagem": "Parabéns! Você já ganha como um jogador de futebol profissional no Brasil! Cerca de 55% dos jogadores profissionais ganham 1 salário mínimo!"
   },
   {
     "de": 1212,
     "ate": 5000,
-    "mensagem": "Somente 33% dos jogadores ganham entre R$ 1.212,00 a R$ 5.000,00. Pode ser escolha difícil..."
+    "mensagem": "Você só não ganha como um jogador de futebol, como está num grupo seleto: somente 33% dos jogadores ganham entre R$ 1.212,00 a R$ 5.000,00."
   },
   {
     "de": 5000,
     "ate": Infinity,
-    "mensagem": "Tem que ter muita bola no pé para entrar no grupo seleto dos 12% dos jogadores mais bem pagos."
+    "mensagem": "Você já ganha tão bem quanto os 12% dos jogadores mais bem pagos do país."
   },
   
 ]

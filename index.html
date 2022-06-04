@@ -3,25 +3,12 @@
   <head>
     <title>Seu salário, em escala</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      .barra {
-        width: 600px;
-        height: 24px;
-        background: lightgray;
-        margin: 24px 0;
-      }
-      .preenchimento {
-        width: 0;
-        height: 100%;
-        background: green;
-        transition: all 1s;
-      }
-    </style>
+    <link rel="stylesheet" href="app.css">
   </head>
   <body>
 
-    <h1>Você já pensou em ganhar como jogador de futebol?!</h1>
-    <h2>Confira se isso pode ser um bom negócio...</h2>
+    <h1>Você já pensou em ser rico como Jogador de Futebol?!</h1>
+    <h2>Se sim, confira se você já não é:</h2>
 
     <p>
       Com um salário de R$
@@ -30,10 +17,15 @@
       <output></output>
      
     </p>
+
+    <div class="barra">
+      <div class="preenchimento"></div>
+      <div class="balde"></div>
+    </div>
   
     <footer>
       Fonte: CBF, Statista e Ernst & Young.
-      Confira a íntegra da pesquisa em <a href="https://www.ey.com/pt_br/media-entertainment/levantamento-financeiro-dos-clubes-brasileiros-2020"></a>
+      Confira a íntegra da pesquisa em https://www.ey.com/pt_br/media-entertainment/levantamento-financeiro-dos-clubes-brasileiros-2020.
     </footer>
 
     <script src="app.js"></script>

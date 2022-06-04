@@ -1,0 +1,60 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  color: rgb(8, 129, 66);
+  margin: 0 auto;
+  padding: 24px;
+  font-size: 30px;
+  max-width: 600px;
+  background: GhostWhite;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:rgb(8, 129, 66);
+  text-align: center;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(8, 129, 66);
+    text-align: center;
+  }
+
+p {
+  margin: 48px 0;
+  font-size: 32px;
+  color:rgb(5, 5, 5);
+}
+
+input {
+  all: unset;
+  width: 128px;
+  padding: 0 8px;
+  border-radius: 8px;
+  background: lightgray;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+output {
+  color: rgb(5, 5, 5);
+}
+
+footer {
+  margin-top: 48px;
+  font-size: 20px;
+}
+
