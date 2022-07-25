@@ -1,7 +1,9 @@
 let entrada = document.querySelector( 'input' )
 let saida = document.querySelector( 'output' )
 let preenchimento = document.querySelector( '.preenchimento' )
-
+//nesse ponto, delimita-se os intervalos de valores, que vai disparar uma mensagem correspondente.
+//Os valores são de acordo com a pesquisa utilizada como base
+//o primeiro tem como valor minimo 0 e máximo o do salário mínimo. Os seguintes seguem os valores da pesquisa base
 let salarios = [
   {
     "de": 0,
